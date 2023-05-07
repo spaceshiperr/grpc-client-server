@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/spaceshiperr/grpc-client-server/proto/generated;weather";
+option go_package = "github.com/spaceshiperr/grpc-client-server/proto/generated";
 
 package weather;
 
@@ -13,13 +13,13 @@ message GetWeatherByCityRequest {
 }
 
 message GetWeatherByCityResponse {
-  uint32 temp = 1;
-  uint32 feels_like = 2;
+  float temp = 1;
+  float feels_like = 2;
   string conditions = 3;
   string description = 4;
   uint32 pressure = 5;
   uint32 humidity = 6;
-  uint32 temp_min = 7;
-  uint64 temp_max = 8;
+  float temp_min = 7;
+  float temp_max = 8;
   uint32 wind_speed = 9;
 }

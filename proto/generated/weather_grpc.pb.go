@@ -4,7 +4,7 @@
 // - protoc             v3.21.12
 // source: weather.proto
 
-package weather
+package generated
 
 import (
 	context "context"
