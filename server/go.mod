@@ -3,8 +3,10 @@ module github.com/spaceshiperr/grpc-client-server/server
 go 1.20
 
 require (
+	github.com/briandowns/openweathermap v0.19.0
 	github.com/caarlos0/env/v6 v6.10.1
 	github.com/rs/zerolog v1.29.1
+	github.com/spaceshiperr/grpc-client-server v0.0.0-20230507150045-6caa79162b04
 	google.golang.org/grpc v1.54.0
 )
 
